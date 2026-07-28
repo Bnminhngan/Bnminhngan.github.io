@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 860" role="img" aria-labelledby="title desc">
+  <title id="title">Abstract microbiome and aquaculture illustration</title>
+  <desc id="desc">A pastel scientific composition combining aquatic waves, microbial cells, a fish silhouette, biological networks, and abstract data points.</desc>
+  <defs>
+    <linearGradient id="blob" x1="80" y1="55" x2="710" y2="790" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#B9DDF2"/>
+      <stop offset="0.48" stop-color="#D8C8E8"/>
+      <stop offset="1" stop-color="#F4C6D7"/>
+    </linearGradient>
+    <linearGradient id="fish" x1="240" y1="390" x2="600" y2="510" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#25313C"/>
+      <stop offset="1" stop-color="#42596A"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#FFFFFF" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#FFF9F0" stop-opacity="0.78"/>
+    </linearGradient>
+    <filter id="softShadow" x="-30%" y="-30%" width="160%" height="170%">
+      <feDropShadow dx="0" dy="22" stdDeviation="24" flood-color="#314354" flood-opacity="0.15"/>
+    </filter>
+    <filter id="tinyShadow" x="-30%" y="-30%" width="160%" height="170%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#314354" flood-opacity="0.12"/>
+    </filter>
+    <clipPath id="mainClip">
+      <path d="M150 126C248 45 409 42 540 94C680 149 748 281 721 427C695 568 617 725 473 788C340 847 181 789 104 676C30 566 38 421 70 305C91 229 101 167 150 126Z"/>
+    </clipPath>
+  </defs>
+
+  <path d="M150 126C248 45 409 42 540 94C680 149 748 281 721 427C695 568 617 725 473 788C340 847 181 789 104 676C30 566 38 421 70 305C91 229 101 167 150 126Z" fill="url(#blob)"/>
+
+  <g clip-path="url(#mainClip)">
+    <circle cx="635" cy="161" r="120" fill="#F7E7A8" fill-opacity="0.7"/>
+    <circle cx="151" cy="650" r="152" fill="#C7DDB5" fill-opacity="0.63"/>
+    <path d="M-12 595C91 541 162 563 248 608C343 658 422 668 512 619C612 565 690 545 852 612" fill="none" stroke="#FFFFFF" stroke-opacity="0.72" stroke-width="18" stroke-linecap="round"/>
+    <path d="M-25 638C82 584 160 605 255 652C352 700 444 710 532 662C627 610 710 594 852 658" fill="none" stroke="#FFFFFF" stroke-opacity="0.42" stroke-width="7" stroke-linecap="round"/>
+
+    <!-- abstract biological network -->
+    <g fill="none" stroke="#25313C" stroke-opacity="0.22" stroke-width="2.5">
+      <path d="M165 210L272 156L358 235L465 174L595 242"/>
+      <path d="M164 210L241 299L358 235L392 335L520 309L595 242"/>
+      <path d="M241 299L170 379L289 415L392 335L489 426L605 368"/>
+    </g>
+    <g>
+      <circle cx="165" cy="210" r="18" fill="#FFF9F0"/><circle cx="272" cy="156" r="12" fill="#F7C9A9"/>
+      <circle cx="358" cy="235" r="22" fill="#FFF9F0"/><circle cx="465" cy="174" r="14" fill="#C7DDB5"/>
+      <circle cx="595" cy="242" r="19" fill="#FFF9F0"/><circle cx="241" cy="299" r="15" fill="#F7E7A8"/>
+      <circle cx="392" cy="335" r="19" fill="#FFF9F0"/><circle cx="520" cy="309" r="13" fill="#F4C6D7"/>
+      <circle cx="170" cy="379" r="11" fill="#B9DDF2"/><circle cx="289" cy="415" r="17" fill="#FFF9F0"/>
+      <circle cx="489" cy="426" r="14" fill="#D8C8E8"/><circle cx="605" cy="368" r="12" fill="#FFF9F0"/>
+    </g>
+
+    <!-- fish and microbial ecology motif -->
+    <g transform="translate(0 18)">
+      <path d="M255 444C329 355 473 354 576 430C611 456 634 479 665 488C637 497 612 520 576 545C472 619 329 614 255 526C225 491 225 478 255 444Z" fill="url(#fish)"/>
+      <path d="M253 445C211 407 167 393 130 399C151 436 163 474 164 488C163 504 151 541 130 578C169 583 212 571 253 527C233 493 233 477 253 445Z" fill="#42596A"/>
+      <path d="M460 401C445 436 430 458 404 478C432 487 454 505 470 540" fill="none" stroke="#FFF9F0" stroke-opacity="0.45" stroke-width="4" stroke-linecap="round"/>
+      <circle cx="566" cy="462" r="8" fill="#FFF9F0"/>
+      <circle cx="568" cy="461" r="3" fill="#25313C"/>
+      <g fill="#FFF9F0" fill-opacity="0.75">
+        <circle cx="354" cy="445" r="7"/><circle cx="389" cy="421" r="5"/><circle cx="421" cy="451" r="9"/>
+        <circle cx="367" cy="496" r="5"/><circle cx="443" cy="502" r="6"/><circle cx="505" cy="465" r="4"/>
+      </g>
+    </g>
+
+    <!-- abstract flow cytometry panel -->
+    <g transform="translate(470 560) rotate(-3)">
+      <rect width="230" height="156" rx="25" fill="url(#panel)" stroke="#FFFFFF" stroke-opacity="0.9"/>
+      <text x="24" y="34" fill="#25313C" font-family="Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="1.8">CELL FINGERPRINTS</text>
+      <path d="M31 126H200M31 126V53" stroke="#25313C" stroke-opacity="0.23" stroke-width="2"/>
+      <g fill="#7EAFCB" fill-opacity="0.78">
+        <circle cx="67" cy="103" r="4"/><circle cx="77" cy="94" r="5"/><circle cx="87" cy="108" r="3.5"/><circle cx="96" cy="88" r="4"/><circle cx="107" cy="99" r="5"/>
+        <circle cx="121" cy="84" r="3.5"/><circle cx="133" cy="93" r="4.5"/><circle cx="145" cy="75" r="4"/><circle cx="158" cy="83" r="5"/><circle cx="173" cy="67" r="4"/>
+      </g>
+      <g fill="#D69BB5" fill-opacity="0.76">
+        <circle cx="116" cy="111" r="4"/><circle cx="133" cy="116" r="5"/><circle cx="148" cy="106" r="4"/><circle cx="164" cy="111" r="3.5"/><circle cx="179" cy="98" r="4.5"/>
+      </g>
+    </g>
+
+    <!-- decorative microbes -->
+    <g stroke="#25313C" stroke-opacity="0.23" stroke-width="2">
+      <g transform="translate(110 520)"><circle r="29" fill="#FFF9F0" fill-opacity="0.75"/><circle cx="-8" cy="-7" r="5" fill="#F4C6D7"/><circle cx="10" cy="7" r="4" fill="#B9DDF2"/><path d="M-24-18l-10-9M24-16l10-9M-27 10l-12 5M26 14l12 6"/></g>
+      <g transform="translate(658 352)"><ellipse rx="33" ry="19" fill="#FFF9F0" fill-opacity="0.72" transform="rotate(25)"/><circle cx="-8" cy="-2" r="4" fill="#C7DDB5"/><circle cx="9" cy="3" r="4" fill="#F7C9A9"/><path d="M-25-18l-8-10M28 11l11 7"/></g>
+      <g transform="translate(642 480)"><circle r="22" fill="#FFF9F0" fill-opacity="0.68"/><circle cx="-5" cy="5" r="4" fill="#D8C8E8"/><circle cx="8" cy="-6" r="3" fill="#F7E7A8"/></g>
+    </g>
+  </g>
+
+  <!-- labels outside main organic form -->
+  <g font-family="Arial, sans-serif" fill="#25313C">
+    <g transform="translate(38 120)">
+      <rect width="190" height="58" rx="29" fill="#FFF9F0" fill-opacity="0.92"/>
+      <circle cx="29" cy="29" r="10" fill="#C7DDB5"/>
+      <text x="51" y="34" font-size="14" font-weight="700" letter-spacing="1.4">MICROBIOME</text>
+    </g>
+    <g transform="translate(578 700)">
+      <rect width="196" height="58" rx="29" fill="#FFF9F0" fill-opacity="0.92"/>
+      <circle cx="29" cy="29" r="10" fill="#F7E7A8"/>
+      <text x="51" y="34" font-size="14" font-weight="700" letter-spacing="1.4">AQUATIC LIFE</text>
+    </g>
+  </g>
+</svg>
